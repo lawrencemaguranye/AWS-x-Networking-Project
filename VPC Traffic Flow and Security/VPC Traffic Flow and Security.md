@@ -38,7 +38,7 @@ A route table is a set of rules, called routes, used to determine where network 
 > **Why are route tables needed to make a subnet public?**  
 A subnet becomes public in AWS only when its route table contains a route to the Internet Gateway (IGW). Without this route, resources in the subnet cannot communicate with the internet.
 
----
+![My Route 2](https://github.com/lawrencemaguranye/AWS-x-Networking-Project/blob/main/images/Route%202.png)
 
 ## Route Destination and Target
 
@@ -52,7 +52,7 @@ The route in my route table that directed internet-bound traffic to my internet 
 - **Destination**: `0.0.0.0/0`  
 - **Target**: `igw-03683c3e06b5f92a3`
 
----
+![My Route 2](https://github.com/lawrencemaguranye/AWS-x-Networking-Project/blob/main/images/Route%202.png)
 
 ## Security Groups
 
@@ -96,12 +96,8 @@ Network ACLs are **stateless**, subnet-level firewalls in AWS that control **inb
   - All traffic is **denied by default**.
   - Requires specific **allow rules** to permit data flow for defined ports, protocols, and IP addresses.
 
----
+![My Route 2](https://github.com/lawrencemaguranye/AWS-x-Networking-Project/blob/main/images/Route%202.png)
 
 ## Learn More
 
-**The place to learn & showcase your skills**  
-Visit [nextwork.org](https://nextwork.org) for more projects.
-
-[Ask a question in the community](https://community.nextwork.org/c/i-have-a-question?automatic_login=true)
-
+---
