@@ -96,8 +96,6 @@ Network ACLs are **stateless**, subnet-level firewalls in AWS that control **inb
   - All traffic is **denied by default**.
   - Requires specific **allow rules** to permit data flow for defined ports, protocols, and IP addresses.
 
-![My Route 2](https://github.com/lawrencemaguranye/AWS-x-Networking-Project/blob/main/images/Route%202.png)
-
-## Learn More
+![My Route 2](images/Network ACL.png)
 
 ---
